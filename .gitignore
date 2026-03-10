@@ -1,0 +1,10 @@
+.build
+Package.resolved
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.xcconfig
+*.xcsettings
+*.xcscheme
+*.xcodeproj/xcuserdata
+*.xcodeproj/xcshareddata

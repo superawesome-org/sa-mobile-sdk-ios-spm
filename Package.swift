@@ -32,12 +32,12 @@ let package = Package(
         .binaryTarget(
             name: "SuperAwesome",
             url: "https://aa-sdk.s3.eu-west-1.amazonaws.com/ios_repo/SuperAwesome/10.0.0/SuperAwesome.xcframework.zip",
-            checksum: "c24b3574e39c85076f2833e8f98a34a16e165030cb8e0727c81b22619c231490"
+            checksum: "9dcb07d5226b61a2d1a067bf3880d6dbcab3c22724585db25f957e73d57e3878"
         ),
         .binaryTarget(
             name: "SuperAwesomeAdMob",
             url: "https://aa-sdk.s3.eu-west-1.amazonaws.com/ios_repo/SuperAwesomeAdMob/10.0.0/SuperAwesomeAdMob.xcframework.zip",
-            checksum: "7dbc835231922ecf6cfffc19f7b8358fa088482635e87081b5937a5eed0595b3"
+            checksum: "fed36b772841cee9dd22552ce1eb4fac3335205bd3b41ecc63578eb8370db662"
         ),
     ]
 )
