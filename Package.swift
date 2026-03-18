@@ -8,7 +8,7 @@ import PackageDescription
 let package = Package(
     name: "SuperAwesome",
     platforms: [
-        .iOS(.v10)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -25,19 +25,19 @@ let package = Package(
         .package(url: "https://github.com/Moya/Moya.git", .upToNextMajor(from: "14.0.0")),
         .package(
             url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
-            .upToNextMajor(from: "11.0.0")
+            .upToNextMajor(from: "13.0.0")
         ),
     ],
     targets: [
         .binaryTarget(
             name: "SuperAwesome",
-            url: "https://aa-sdk.s3.eu-west-1.amazonaws.com/ios_repo/SuperAwesome/10.0.0/SuperAwesome.xcframework.zip",
-            checksum: "530560723b9f3f7f79e7e4b77b24f28b0f54a5ba1e58c63f5ad5f478af17a754"
+            url: "https://aa-sdk.s3.eu-west-1.amazonaws.com/ios_repo/SuperAwesome/10.1.0/SuperAwesome.xcframework.zip",
+            checksum: "e1166b5f3abb1f9b2e92964e99107cfa4f5e7fb5478208abe8f8cf99dfbae8a0"
         ),
         .binaryTarget(
             name: "SuperAwesomeAdMob",
-            url: "https://aa-sdk.s3.eu-west-1.amazonaws.com/ios_repo/SuperAwesomeAdMob/10.0.0/SuperAwesomeAdMob.xcframework.zip",
-            checksum: "de2f2e59ecc8344c1c2aba016f7d4ea4c766ed08540cb8c8926580f334d1f6d1"
+            url: "https://aa-sdk.s3.eu-west-1.amazonaws.com/ios_repo/SuperAwesomeAdMob/10.1.0/SuperAwesomeAdMob.xcframework.zip",
+            checksum: "93bb26e996d4ddc42b316816b2617b1b789d0d8d007cf6b59d34d8023af5ef8d"
         ),
     ]
 )
