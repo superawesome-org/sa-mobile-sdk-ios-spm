@@ -31,16 +31,16 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SuperAwesome",
-            url: "https://aa-sdk.s3.eu-west-1.amazonaws.com/ios_repo/SuperAwesome/10.2.1/SuperAwesome.xcframework.zip",
-            checksum: "3df50ab46d4ab1af9f062da65dc9453c197241f1acae633fea7641b819889c88"
+            url: "https://aa-sdk.s3.eu-west-1.amazonaws.com/ios_repo/SuperAwesome/10.2.2-rc.1/SuperAwesome.xcframework.zip",
+            checksum: "d5c61637c6b1062e9bcc9283e60f2f0f1202a4ccdb679fc4ed8638f5da7a61cf"
         ),
         // Note: SuperAwesomeAdMob depends on SuperAwesome and GoogleMobileAds at runtime.
         // SPM binary targets cannot declare dependencies, so consumers must add both
         // SuperAwesome and swift-package-manager-google-mobile-ads to their project.
         .binaryTarget(
             name: "SuperAwesomeAdMob",
-            url: "https://aa-sdk.s3.eu-west-1.amazonaws.com/ios_repo/SuperAwesomeAdMob/10.2.1/SuperAwesomeAdMob.xcframework.zip",
-            checksum: "d62f2d28615c53986cba7c4589b120d9cbd3a24c277474bb282a9d1a85d6648a"
+            url: "https://aa-sdk.s3.eu-west-1.amazonaws.com/ios_repo/SuperAwesomeAdMob/10.2.2-rc.1/SuperAwesomeAdMob.xcframework.zip",
+            checksum: "a6ff759d3db92c30d83e4587b9b703491f4537f0bd189ead0cdd82cc58048e9b"
         ),
     ]
 )
